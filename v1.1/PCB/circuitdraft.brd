@@ -165,7 +165,7 @@
 <wire x1="43" y1="3" x2="43" y2="38.4" width="0" layer="20"/>
 <wire x1="43" y1="38.4" x2="11.8" y2="38.4" width="0" layer="20"/>
 <wire x1="11.8" y1="38.4" x2="11.8" y2="3" width="0" layer="20"/>
-<text x="12.7" y="12.5" size="1.778" layer="22" rot="MR180">MU3DPC Hand v1.1</text>
+<text x="14.5" y="14.6" size="1.778" layer="22" rot="MR180">MU3DPC Hand v1.1</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
