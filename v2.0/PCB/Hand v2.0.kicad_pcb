@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 217)
     (zones 0)
     (modules 35)
@@ -1989,6 +1989,9 @@
     )
   )
 
+  (gr_text "MU3DPC Hand v2.0" (at 122.2 73.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 152 72) (end 152 20) (layer Edge.Cuts) (width 0.05) (tstamp 5E23FA04))
   (gr_line (start 116 75) (end 149 75) (layer Edge.Cuts) (width 0.05) (tstamp 5E23FA00))
   (gr_line (start 113 20) (end 113 72) (layer Edge.Cuts) (width 0.05) (tstamp 5E23F9FD))
@@ -2013,8 +2016,6 @@
   (segment (start 131.95 40.2) (end 132.76499 39.38501) (width 1.37) (layer F.Cu) (net 1) (status 1000000))
   (segment (start 132.76499 39.38501) (end 132.76499 38.424994) (width 1.37) (layer F.Cu) (net 1) (status 1000000))
   (segment (start 131.95 41) (end 131.95 40.2) (width 1.37) (layer F.Cu) (net 1) (status 1000000))
-  (via (at 134.5 39.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
-  (via (at 130.5 39.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 125.05 34) (end 126 33.05) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 122 34) (end 125.05 34) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 128.7 33.05) (end 128.8 32.95) (width 0.25) (layer F.Cu) (net 2))
@@ -2031,6 +2032,8 @@
   (segment (start 131.213285 68) (end 129.82499 66.611705) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 131.6 61) (end 130.525 61) (width 0.25) (layer B.Cu) (net 3))
   (segment (start 143 68) (end 131.213285 68) (width 0.25) (layer B.Cu) (net 3))
+  (via (at 134.5 39.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
+  (via (at 130.5 39.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 122.5 41) (end 122 40.5) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 125.95 41) (end 122.5 41) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 125.95 43.95) (end 126 44) (width 0.25) (layer F.Cu) (net 4))
