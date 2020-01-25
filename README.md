@@ -1,4 +1,5 @@
 # 2020
+Meetings 4pm Tuesday.
 Reorganized 3D printing club files containing code, PCB files, and Solid Models
 ## V2
 Stuart's ARM board and probably Rust code.
