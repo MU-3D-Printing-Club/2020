@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Hand Mark 2 Rev 1-cache
+LIBS:Hand v2.0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -103,7 +103,7 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	1    0    0    -1  
 $EndComp
 $Comp
-L hand~parts:MyoWare MYO1
+L Hand-v2.0-Parts:MyoWare MYO1
 U 1 1 5E217809
 P 6400 4950
 F 0 "MYO1" H 6536 5001 50  0000 L CNN
@@ -841,7 +841,7 @@ F 3 "" H 3900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hand~parts:MIC2876-5.5YMT-TR REG2
+L Hand-v2.0-Parts:MIC2876-5.5YMT-TR REG2
 U 1 1 5E2A2729
 P 3800 5400
 F 0 "REG2" H 4025 5425 50  0000 C CNN

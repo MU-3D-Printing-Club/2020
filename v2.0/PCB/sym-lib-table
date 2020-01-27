@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "hand parts")(type Legacy)(uri "${KIPRJMOD}/hand parts.lib")(options "")(descr ""))
-  (lib (name Hand-Mark-2-Rev-1-rescue)(type Legacy)(uri "${KIPRJMOD}/Hand Mark 2 Rev 1-rescue.lib")(options "")(descr ""))
+  (lib (name Hand-v2.0-Parts)(type Legacy)(uri "${KIPRJMOD}/Hand v2.0 parts.lib")(options "")(descr ""))
+  (lib (name Hand-v2.0-rescue)(type Legacy)(uri "${KIPRJMOD}/Hand v2.0-rescue.lib")(options "")(descr ""))
 )
