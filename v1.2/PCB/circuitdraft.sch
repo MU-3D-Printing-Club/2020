@@ -9289,6 +9289,8 @@ Li-Polymer Charge Management Controllers</description>
 <part name="GND3" library="3DPC" deviceset="GND" device=""/>
 <part name="RPROG" library="3DPC" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2 kOhm"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="BAT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="PWRSW" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9402,6 +9404,14 @@ Li-Polymer Charge Management Controllers</description>
 <instance part="SJ1" gate="1" x="269.24" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.7" y="96.52" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="273.05" y="96.52" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="BAT" gate="G$1" x="297.18" y="73.66" smashed="yes">
+<attribute name="NAME" x="290.83" y="79.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="290.83" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="PWRSW" gate="G$1" x="292.1" y="88.9" smashed="yes">
+<attribute name="NAME" x="288.29" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.75" y="83.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9710,6 +9720,12 @@ Li-Polymer Charge Management Controllers</description>
 <wire x1="256.54" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
 <junction x="254" y="55.88"/>
 </segment>
+<segment>
+<pinref part="BAT" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="73.66" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="73.66" x2="284.48" y2="68.58" width="0.1524" layer="91"/>
+<label x="284.48" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INTERRUPT" class="0">
 <segment>
@@ -9735,19 +9751,13 @@ Li-Polymer Charge Management Controllers</description>
 <label x="27.94" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="CHRG" gate="G$1" pin="VBAT"/>
-<wire x1="251.46" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="76.2" x2="274.32" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="COUT" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="76.2" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="73.66" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<junction x="269.24" y="76.2"/>
-<label x="276.86" y="76.2" size="1.778" layer="95"/>
-<label x="276.86" y="76.2" size="1.778" layer="95"/>
+<pinref part="PWRSW" gate="G$1" pin="1"/>
+<wire x1="289.56" y1="91.44" x2="276.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="91.44" x2="276.86" y2="96.52" width="0.1524" layer="91"/>
+<label x="276.86" y="96.52" size="1.778" layer="95"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="274.32" y1="76.2" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="78.74" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
-<junction x="274.32" y="76.2"/>
+<wire x1="269.24" y1="93.98" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="91.44" x2="276.86" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9870,6 +9880,23 @@ Li-Polymer Charge Management Controllers</description>
 <pinref part="SJ1" gate="1" pin="2"/>
 <wire x1="269.24" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="(ADC7/TDI)PF7"/>
+</segment>
+</net>
+<net name="BATCHARGE" class="1">
+<segment>
+<pinref part="CHRG" gate="G$1" pin="VBAT"/>
+<wire x1="251.46" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="COUT" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="73.66" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<junction x="269.24" y="76.2"/>
+<pinref part="BAT" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="76.2" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="PWRSW" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="88.9" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
+<junction x="281.94" y="76.2"/>
+<label x="251.46" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
