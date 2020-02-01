@@ -3,8 +3,9 @@ Meetings 2pm Thursday in E3508.
 Reorganized 3D printing club files containing code, PCB files, and Solid Models
 
 ## Updates 1/31/2020
+- Please remember to always **PULL FROM ORIGIN** before you make edits.
 - Installed blender on lab computer.
-- Added Jack's new back cover and palm .stl to v1.2/Solids. To work with this, create your own branch.
+- Added Jack's new back cover and palm .stl to v1.2/Solids. 
 
 ## V2
 Stuart's ARM board and probably Rust code.
