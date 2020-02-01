@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Hand v2.0-cache
+LIBS:Hand v2.1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -81,7 +81,7 @@ F 3 "~" H 8400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hand-v2.0-Parts:MyoWare MYO1
+L Hand-v2.1-rescue:MyoWare-Hand-v2.0-Parts MYO1
 U 1 1 5E217809
 P 8550 4400
 F 0 "MYO1" H 8686 4451 50  0000 L CNN
@@ -535,7 +535,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 3425 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hand-v2.0-Parts:MIC2876-5.5YMT-TR REG2
+L Hand-v2.1-rescue:MIC2876-5.5YMT-TR-Hand-v2.0-Parts REG2
 U 1 1 5E2A2729
 P 4950 6450
 F 0 "REG2" H 5175 6475 50  0000 C CNN

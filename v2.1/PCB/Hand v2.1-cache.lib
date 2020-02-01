@@ -195,11 +195,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hand-v2.0-Parts_MIC2876-5.5YMT-TR
+# Hand-v2.1-rescue_MIC2876-5.5YMT-TR-Hand-v2.0-Parts-Hand-v2.1-rescue
 #
-DEF Hand-v2.0-Parts_MIC2876-5.5YMT-TR REG 0 40 Y Y 1 F N
+DEF Hand-v2.1-rescue_MIC2876-5.5YMT-TR-Hand-v2.0-Parts-Hand-v2.1-rescue REG 0 40 Y Y 1 F N
 F0 "REG" 200 -50 50 H V C CNN
-F1 "Hand-v2.0-Parts_MIC2876-5.5YMT-TR" 200 50 50 H V C CNN
+F1 "Hand-v2.1-rescue_MIC2876-5.5YMT-TR-Hand-v2.0-Parts-Hand-v2.1-rescue" 200 50 50 H V C CNN
 F2 "" 200 -50 50 H I C CNN
 F3 "" 200 -50 50 H I C CNN
 DRAW
@@ -216,11 +216,11 @@ X EP 9 200 -650 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Hand-v2.0-Parts_MyoWare
+# Hand-v2.1-rescue_MyoWare-Hand-v2.0-Parts-Hand-v2.1-rescue
 #
-DEF Hand-v2.0-Parts_MyoWare M 0 40 Y Y 1 F N
+DEF Hand-v2.1-rescue_MyoWare-Hand-v2.0-Parts-Hand-v2.1-rescue M 0 40 Y Y 1 F N
 F0 "M" 0 -200 50 H V C CNN
-F1 "Hand-v2.0-Parts_MyoWare" 0 200 50 H V C CNN
+F1 "Hand-v2.1-rescue_MyoWare-Hand-v2.0-Parts-Hand-v2.1-rescue" 0 200 50 H V C CNN
 F2 "" 0 -200 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 DRAW
