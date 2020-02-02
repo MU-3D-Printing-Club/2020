@@ -81,7 +81,7 @@ F 3 "~" H 8400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hand-v2.1-rescue:MyoWare-Hand-v2.0-Parts MYO1
+L Hand-v2.1-rescue:MyoWare-Hand-v2.0-Parts-Hand-v2.1-rescue MYO1
 U 1 1 5E217809
 P 8550 4400
 F 0 "MYO1" H 8686 4451 50  0000 L CNN
@@ -240,7 +240,7 @@ F 3 "" H 4850 4550 50  0001 C CNN
 $EndComp
 Text GLabel 9750 800  2    50   Input ~ 0
 MYOSIG
-Text GLabel 3800 2700 2    50   Input ~ 0
+Text GLabel 2750 3050 2    50   Input ~ 0
 NORMVBAT
 Text GLabel 7750 850  0    50   Input ~ 0
 INDEX
@@ -329,7 +329,7 @@ Wire Wire Line
 	7700 2450 7850 2450
 Wire Wire Line
 	7700 2950 7850 2950
-Text GLabel 3800 2500 2    50   Input ~ 0
+Text GLabel 2750 2950 2    50   Input ~ 0
 NORMMYOSIG
 Text GLabel 8250 4500 0    50   Input ~ 0
 MYOSIG
@@ -337,42 +337,36 @@ Wire Wire Line
 	8250 4500 8350 4500
 Text GLabel 8100 3700 0    50   Input ~ 0
 BTN
-Text GLabel 4050 3800 3    50   Input ~ 0
+Text GLabel 2750 3350 2    50   Input ~ 0
 BTN
 Wire Wire Line
-	4050 3500 4050 3800
-Wire Wire Line
-	4050 3500 4200 3500
-Wire Wire Line
 	8100 3700 8200 3700
-Text GLabel 3800 2600 2    50   Input ~ 0
+Text GLabel 2750 3150 2    50   Input ~ 0
 THUMB
 Wire Wire Line
-	3650 2500 3800 2500
+	2600 2950 2750 2950
 Wire Wire Line
-	3650 2600 3800 2600
+	2600 3150 2750 3150
 Wire Wire Line
-	3650 2700 3800 2700
-Text GLabel 3800 2800 2    50   Input ~ 0
+	2600 3050 2750 3050
+Text GLabel 2750 2550 2    50   Input ~ 0
 INDEX
-Text GLabel 3800 2900 2    50   Input ~ 0
+Text GLabel 2750 2650 2    50   Input ~ 0
 MIDDLE
-Text GLabel 3800 3000 2    50   Input ~ 0
+Text GLabel 2750 2750 2    50   Input ~ 0
 RING
-Text GLabel 3800 3100 2    50   Input ~ 0
+Text GLabel 2750 2850 2    50   Input ~ 0
 PINKY
 Wire Wire Line
-	3650 2800 3800 2800
+	2600 2550 2750 2550
 Wire Wire Line
-	3650 2900 3800 2900
+	2600 2650 2750 2650
 Wire Wire Line
-	3650 3000 3800 3000
+	2600 2750 2750 2750
 Wire Wire Line
-	3650 3100 3800 3100
-Text GLabel 4200 3800 3    50   Input ~ 0
+	2600 2850 2750 2850
+Text GLabel 2750 3250 2    50   Input ~ 0
 NEO
-Wire Wire Line
-	4200 3600 4200 3800
 $Comp
 L Device:R_US R8
 U 1 1 5E27B14E
@@ -535,7 +529,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 3425 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hand-v2.1-rescue:MIC2876-5.5YMT-TR-Hand-v2.0-Parts REG2
+L Hand-v2.1-rescue:MIC2876-5.5YMT-TR-Hand-v2.0-Parts-Hand-v2.1-rescue REG2
 U 1 1 5E2A2729
 P 4950 6450
 F 0 "REG2" H 5175 6475 50  0000 C CNN
@@ -1157,4 +1151,8 @@ Wire Wire Line
 Connection ~ 5600 1550
 Wire Wire Line
 	5600 1550 5050 1550
+Wire Wire Line
+	2750 3250 2600 3250
+Wire Wire Line
+	2750 3350 2600 3350
 $EndSCHEMATC
