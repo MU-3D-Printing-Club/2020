@@ -4764,59 +4764,6 @@ Li-Polymer Charge Management Controllers</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="SON50P200X200X80-9N" prefix="U">
-<gates>
-</gates>
-<devices>
-<device name="" package="SON50P200X200X80-9N">
-<technologies>
-<technology name="">
-<attribute name="A_MAX" value="0.8"/>
-<attribute name="BALL_COLUMNS" value=""/>
-<attribute name="BALL_ROWS" value=""/>
-<attribute name="BODY_DIAMETER" value=""/>
-<attribute name="B_MAX" value="0.3"/>
-<attribute name="B_MIN" value="0.2"/>
-<attribute name="B_NOM" value="0.25"/>
-<attribute name="D1_MAX" value=""/>
-<attribute name="D1_MIN" value=""/>
-<attribute name="D1_NOM" value=""/>
-<attribute name="D2_NOM" value="1.3"/>
-<attribute name="DMAX" value=""/>
-<attribute name="DMIN" value=""/>
-<attribute name="DNOM" value=""/>
-<attribute name="D_MAX" value="2.1"/>
-<attribute name="D_MIN" value="1.9"/>
-<attribute name="D_NOM" value="2.0"/>
-<attribute name="E2_NOM" value="0.9"/>
-<attribute name="EMAX" value=""/>
-<attribute name="EMIN" value=""/>
-<attribute name="ENOM" value="0.5"/>
-<attribute name="E_MAX" value="2.1"/>
-<attribute name="E_MIN" value="1.9"/>
-<attribute name="E_NOM" value="2.0"/>
-<attribute name="IPC" value=""/>
-<attribute name="JEDEC" value=""/>
-<attribute name="L1_MAX" value=""/>
-<attribute name="L1_MIN" value=""/>
-<attribute name="L1_NOM" value=""/>
-<attribute name="L_MAX" value="0.4"/>
-<attribute name="L_MIN" value="0.2"/>
-<attribute name="L_NOM" value="0.3"/>
-<attribute name="MANUFACTURER" value="Maxim Integrated"/>
-<attribute name="PACKAGE_TYPE" value=""/>
-<attribute name="PINS" value=""/>
-<attribute name="PIN_COLUMNS" value=""/>
-<attribute name="PIN_COUNT" value="8.0"/>
-<attribute name="SNAPEDA_PACKAGE_ID" value="70797"/>
-<attribute name="STANDARD" value="IPC 7351B"/>
-<attribute name="THERMAL_PAD" value=""/>
-<attribute name="VACANCIES" value=""/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>

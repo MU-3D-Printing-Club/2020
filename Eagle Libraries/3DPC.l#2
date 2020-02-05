@@ -3381,6 +3381,32 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
+<package name="SON50P200X200X80-9N">
+<rectangle x1="-0.28" y1="-0.41" x2="0.28" y2="0.41" layer="31"/>
+<circle x="-1.945" y="0.75" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.945" y="0.75" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-1.05" x2="1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="1.205" x2="1.05" y2="1.205" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.205" x2="1.05" y2="-1.205" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="1.05" x2="-1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="-1.615" y1="1.3" x2="1.615" y2="1.3" width="0.05" layer="39"/>
+<wire x1="-1.615" y1="-1.3" x2="1.615" y2="-1.3" width="0.05" layer="39"/>
+<wire x1="-1.615" y1="1.3" x2="-1.615" y2="-1.3" width="0.05" layer="39"/>
+<wire x1="1.615" y1="1.3" x2="1.615" y2="-1.3" width="0.05" layer="39"/>
+<text x="-1.81" y="-1.382" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.81" y="1.382" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-0.985" y="0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="2" x="-0.985" y="0.25" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="3" x="-0.985" y="-0.25" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="4" x="-0.985" y="-0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="5" x="0.985" y="-0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="6" x="0.985" y="-0.25" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="7" x="0.985" y="0.25" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="8" x="0.985" y="0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="0.9" dy="1.3" layer="1" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model">
@@ -4737,6 +4763,59 @@ Li-Polymer Charge Management Controllers</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+</deviceset>
+<deviceset name="SON50P200X200X80-9N" prefix="U">
+<gates>
+</gates>
+<devices>
+<device name="" package="SON50P200X200X80-9N">
+<technologies>
+<technology name="">
+<attribute name="A_MAX" value="0.8"/>
+<attribute name="BALL_COLUMNS" value=""/>
+<attribute name="BALL_ROWS" value=""/>
+<attribute name="BODY_DIAMETER" value=""/>
+<attribute name="B_MAX" value="0.3"/>
+<attribute name="B_MIN" value="0.2"/>
+<attribute name="B_NOM" value="0.25"/>
+<attribute name="D1_MAX" value=""/>
+<attribute name="D1_MIN" value=""/>
+<attribute name="D1_NOM" value=""/>
+<attribute name="D2_NOM" value="1.3"/>
+<attribute name="DMAX" value=""/>
+<attribute name="DMIN" value=""/>
+<attribute name="DNOM" value=""/>
+<attribute name="D_MAX" value="2.1"/>
+<attribute name="D_MIN" value="1.9"/>
+<attribute name="D_NOM" value="2.0"/>
+<attribute name="E2_NOM" value="0.9"/>
+<attribute name="EMAX" value=""/>
+<attribute name="EMIN" value=""/>
+<attribute name="ENOM" value="0.5"/>
+<attribute name="E_MAX" value="2.1"/>
+<attribute name="E_MIN" value="1.9"/>
+<attribute name="E_NOM" value="2.0"/>
+<attribute name="IPC" value=""/>
+<attribute name="JEDEC" value=""/>
+<attribute name="L1_MAX" value=""/>
+<attribute name="L1_MIN" value=""/>
+<attribute name="L1_NOM" value=""/>
+<attribute name="L_MAX" value="0.4"/>
+<attribute name="L_MIN" value="0.2"/>
+<attribute name="L_NOM" value="0.3"/>
+<attribute name="MANUFACTURER" value="Maxim Integrated"/>
+<attribute name="PACKAGE_TYPE" value=""/>
+<attribute name="PINS" value=""/>
+<attribute name="PIN_COLUMNS" value=""/>
+<attribute name="PIN_COUNT" value="8.0"/>
+<attribute name="SNAPEDA_PACKAGE_ID" value="70797"/>
+<attribute name="STANDARD" value="IPC 7351B"/>
+<attribute name="THERMAL_PAD" value=""/>
+<attribute name="VACANCIES" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
 </deviceset>
 </devicesets>
 </library>
