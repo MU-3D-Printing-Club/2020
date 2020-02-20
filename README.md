@@ -33,10 +33,5 @@ Reorganized PCB. Larger back cover.
 ### V1.0
 From December. Broke because of lack and space/organization in back cover.
 
-- [ ] Add regulating IC. (Ethan and Stuart)
-- [x] Verify MCP73831 placement. (Stuart)
-- [x] Look through new SolidWorks files. (3D Design Team)
-- [x] Use Blender to cutout space in palm. (3D Design Team)
-- [x] Create space models. (Jack)
 ## V0
-Bare bones code and prototype back cover. Cannot find Eagle file. 
+Bare bones code and prototype back cover. Cannot find Eagle file. Only legend speaks of this.
