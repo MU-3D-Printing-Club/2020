@@ -2,6 +2,8 @@
 Meetings 2pm Thursday in E3508.
 Reorganized 3D printing club files containing code, PCB files, and Solid Models
 
+[Link to Ada Assembly instructions](https://openbionicslabs.com/obtutorials/ada-v1-assembly)
+
 ## Updates 1/31/2020
 - Please remember to always **PULL FROM ORIGIN** and make a new branch before you make edits.
 - Installed blender on lab computer.
