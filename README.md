@@ -28,7 +28,7 @@ Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf
 ### V1.1
 Reorganized PCB. Larger back cover.
 
-- [ ] Get the programmer out of reset mode. (Stuart
+- [ ] Get the programmer out of reset mode. (Stuart)
 - [ ] Tie knots. (Jack)
 ### V1.0
 From December. Broke because of lack and space/organization in back cover.
