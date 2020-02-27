@@ -3,13 +3,13 @@ Meetings 2pm Thursday in E3508.
 
 [Link to Ada Assembly instructions](https://openbionicslabs.com/obtutorials/ada-v1-assembly)
 
-## Updates 2/20/2020
+## Updates 2/27/2020
 - Please remember to always **PULL FROM ORIGIN** and make a new branch before you make edits.
 - Installed gitHub, Eagle, and SolidWorks on lab computer
 
 ## V2
 Stuart's ARM board and probably Rust code.
-- [ ] Ask Dr. Gillis for review. (JD)
+- [x] Ask Dr. Gillis for review. (JD)
 - [ ] Get rust code running for servos on discovery board. PWM libraries and also [potentiometer controlled feedback](https://www.actuonix.com/Actuonix-PQ-12-P-Linear-Actuator-p/pq12-p.htm). (Jake/Stuart/James/Matt)
 - [x] Identify which rust-compatible chip to buy. (Jake/Stuart)
 ## V1
