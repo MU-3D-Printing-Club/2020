@@ -16,7 +16,7 @@ Stuart's ARM board and probably Rust code.
 ### V1.3 
 
 Added [boost regulator](http://ww1.microchip.com/downloads/en/DeviceDoc/20005572A.pdf) in addition to 1.2 changes.  
-- [ ] Review Ahmad's suggestions. Look in "Regulator" branch. (Jake/JD)
+- [ ] Review Ahmad's suggestions. Look in "Regulator" branch. (Jake/Ethan)
 ### V1.2
 Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf) charger. Might have misplaced input capacitor. 
 
@@ -28,7 +28,8 @@ Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf
 ### V1.1
 Reorganized PCB. Larger back cover.
 
-- [ ] Get the programmer out of reset mode. (Stuart)
+- [ ] Finalize back cover and solder in final compnenets.
+- [x] Get the programmer out of reset mode. (Stuart)
 - [ ] Tie knots. (Jack)
 ### V1.0
 From December. Broke because of lack and space/organization in back cover.
