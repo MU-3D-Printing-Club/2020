@@ -2145,16 +2145,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="GND">
 <contactref element="ISP" pad="6"/>
 <polygon width="0.1524" layer="1">
-<vertex x="-0.5" y="58.8"/>
-<vertex x="50" y="58.8"/>
-<vertex x="50" y="-4.1"/>
-<vertex x="-0.5" y="-4.1"/>
+<vertex x="11.5" y="38.5"/>
+<vertex x="43.2" y="38.5"/>
+<vertex x="43.2" y="2.8"/>
+<vertex x="11.5" y="2.8"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-2.7" y="61.5"/>
-<vertex x="51.5" y="61.5"/>
-<vertex x="51.5" y="-5.2"/>
-<vertex x="-2.7" y="-5.2"/>
+<vertex x="11.4" y="38.5"/>
+<vertex x="43.5" y="38.5"/>
+<vertex x="43.5" y="2.5"/>
+<vertex x="11.4" y="2.5"/>
 </polygon>
 <contactref element="U$1" pad="5"/>
 <contactref element="CHARGER" pad="2"/>
