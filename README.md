@@ -10,15 +10,16 @@ Meetings 2pm Thursday in E3508.
 ## V2
 Stuart's ARM board and probably Rust code.
 - [x] Ask Dr. Gillis for review. (JD)
-- [ ] Get rust code running for servos on discovery board. PWM libraries and also [potentiometer controlled feedback](https://www.actuonix.com/Actuonix-PQ-12-P-Linear-Actuator-p/pq12-p.htm). (Jake/Stuart/James/Matt)
+- [ ] Get rust code running for servos on discovery board. PWM libraries and also [potentiometer controlled feedback](https://www.actuonix.com/Actuonix-PQ-12-P-Linear-Actuator-p/pq12-p.htm). (Chris/Jake/Stuart/James/Matt)
 - [x] Identify which rust-compatible chip to buy. (Jake/Stuart)
 ## V1
 ### V1.3 
 
 Added [boost regulator](http://ww1.microchip.com/downloads/en/DeviceDoc/20005572A.pdf) in addition to 1.2 changes.  
 - [ ] Review Ahmad's suggestions. Look in "Regulator" branch. (Jake/Ethan)
+- [ ] Make Vcc route bigger.
 ### V1.2
-Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf) charger. Might have misplaced input capacitor. 
+Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf) charger.
 
 - [ ] Solder chip and resistors on.
 - [ ] Burn bootloader and code. See if it works.
