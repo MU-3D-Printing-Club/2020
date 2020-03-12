@@ -2,7 +2,8 @@
 Servo s1, s2, s3, s4, s5;
 #define extendmin 2000    //static integers of extendminimum and extendmaximum servo extension
 #define extendmax 1000
-int set = -1;
+#define in 1850
+#define out 1000
 
 void setup() {
   // put your setup code here, to run once:
@@ -17,17 +18,17 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println("State1");
-  s1.writeMicroseconds(1000);
-  s2.writeMicroseconds(1000);
-  s3.writeMicroseconds(1000);
-  s4.writeMicroseconds(1000);
-  s5.writeMicroseconds(1000);
-  delay(2000);
+  s1.writeMicroseconds(in);
+  s2.writeMicroseconds(in);
+  s3.writeMicroseconds(in);
+  s4.writeMicroseconds(in);
+  s5.writeMicroseconds(in);
+  delay(5000);
   Serial.println("State2");
-  s1.writeMicroseconds(2000);
-  s2.writeMicroseconds(2000);
-  s3.writeMicroseconds(2000);
-  s4.writeMicroseconds(2000);
-  s5.writeMicroseconds(2000);
-  delay(2000);
+  s1.writeMicroseconds(out);
+  s2.writeMicroseconds(out);
+  s3.writeMicroseconds(out);
+  s4.writeMicroseconds(out+100);
+  s5.writeMicroseconds(out);
+  delay(5000);
 }

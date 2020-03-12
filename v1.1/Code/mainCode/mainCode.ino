@@ -15,6 +15,9 @@ Servo pinky;
 #define extendmin 2000    //static integers of extendminimum and extendmaximum servo extension
 #define extendmax 1000
 
+#define setmin 1850
+#define setmax 1000
+
 int trigger = 600; //default value incase if all fails
 int rotation = 2; //set to 4 for more opitons
 bool isLocked = false; //0 is not locked
@@ -146,11 +149,11 @@ void loop() {
     switch (state) {
       case OPEN:
         Serial1.println("Open");
-        handPosition(extendmax, extendmax, extendmax, extendmax, extendmax);
+        handPosition(setmax, setmax, setmax, setmax, setmax);
         break;
       case FIST:
         Serial1.println("Fist");
-        handPosition(extendmin, extendmin, extendmin, extendmin, extendmin);
+        handPosition(setmin, setmin, setmin, setmin, setmin);
         break;
       case POINT:
         Serial1.println("Point");
@@ -283,7 +286,7 @@ void handPosition(int thumbPos, int pointerPos, int middlePos, int ringPos, int 
   ring.writeMicroseconds(ringPos);
   pinky.writeMicroseconds(pinkyPos);
   delay(200);
-  thumb.writeMicroseconds(thumbPos);
+  thumb.writeMicroseconds(thumbPos+150); //this is because the thumb is not tied tight
   delay(1000);       //this is so the servos have time to get to their set position
   thumb.writeMicroseconds(thumb.readMicroseconds()); //adjusts servos to adjust desired position to actual position reached to avoid burnout
   pointer.writeMicroseconds(pointer.readMicroseconds());
