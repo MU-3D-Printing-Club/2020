@@ -29,11 +29,13 @@ Added [LiPo](https://cdn.sparkfun.com/assets/learn_tutorials/6/9/5/MCP738312.pdf
 ### V1.1
 Reorganized PCB. Larger back cover.
 
-- [ ] Tie knots. (Jack)
-- [ ] Solder myoelectric in.
-- [ ] Attach servos.
-- [ ] Print back cover.
-- [ ] Epoxy screw in.
+- [ ] Document
+- [ ] SHIP.
+- [x] Tie knots. (Jack)
+- [x] Solder myoelectric in.
+- [x] Attach servos.
+- [x] Print back cover.
+- [x] Epoxy screw in.
 - [x] Get the programmer out of reset mode. (Stuart)
 
 ### V1.0
