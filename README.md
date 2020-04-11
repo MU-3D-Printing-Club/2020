@@ -44,7 +44,7 @@ From December. Broke because of lack and space/organization in back cover.
 ## V0
 Bare bones code and prototype back cover. Cannot find Eagle file. Only legend speaks of this.
 
-
+<pre>
 .
 ├── Eagle Libraries
 │   ├── 3DPC.l#1
@@ -182,4 +182,4 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
         └── sym-lib-table
 
 33 directories, 286 files
-
+</pre>
