@@ -43,3 +43,143 @@ From December. Broke because of lack and space/organization in back cover.
 
 ## V0
 Bare bones code and prototype back cover. Cannot find Eagle file. Only legend speaks of this.
+
+
+.
+├── Eagle Libraries
+│   ├── 3DPC.l#1
+│   ├── 3DPC.l#2
+│   ├── 3DPC.l#3
+│   ├── 3DPC.l#4
+│   ├── 3DPC.l#5
+│   ├── 3DPC.l#6
+│   ├── 3DPC.l#7
+│   ├── 3DPC.l#8
+│   └── 3DPC.lbr
+├── Jig Components
+│   ├── Legiment Jig.SLDPRT
+│   └── Legiment Jig.STL
+├── Myosensor
+│   └── test.txt.txt
+├── README.md
+├── eletronics test bed
+│   ├── 400 point breadboard holder.stl
+│   ├── STM32F3DISCOVERY holder.stl
+│   ├── actuonix PQ12 servo holder.stl
+│   ├── battery holder.stl
+│   └── electronics v1.0 holder.stl
+├── tree.txt
+├── v0.0
+│   ├── SolidWorks
+│   │   ├── Backcover 12-6-19.SLDPRT
+│   │   └── Backcover 12-6-19.STL
+│   ├── myoFlex-Original
+│   │   └── myoFlex.ino
+│   └── pcb
+
+│       ├── circuitdraft.brd
+│       ├── circuitdraft.pro
+│       ├── circuitdraft.sch
+│       └── eagle.epf
+├── v0.1
+│   └── PCB
+│       ├── circuitdraft.brd
+│       ├── circuitdraft.pro
+│       ├── circuitdraft.sch
+│       └── eagle.epf
+├── v1.0
+│   ├── PCB
+│   ├── PCB Libraries
+│   │   ├── SamacSys_Parts.l#1
+│   │   ├── SamacSys_Parts.lbr
+│   │   ├── TPS54627DDAR.lbr
+│   │   ├── charger.lbr
+│   │   ├── ind2.l##
+│   │   ├── ind2.lbr
+│   │   ├── inductor.lbr
+│   │   ├── mega32U4.l#1
+│   │   ├── mega32U4.lbr
+│   │   ├── microchip-update.lbr
+│   │   ├── powerPad.l#1
+│   │   └── powerPad.lbr
+│   ├── SolidWorks
+│   │   ├── 191216_Backcover_JD.SLDPRT
+│   │   └── 191216_Backcover_JD.STL
+│   ├── circuitdraft.txt
+│   └── mainCode
+│       └── mainCode.ino
+├── v1.1
+│   ├── CAD
+│   │   ├── 02_18_2020_BackcoverC.SLDPRT
+│   │   ├── 02_18_2020_BackcoverF.SLDPRT
+│   │   ├── 02_18_2020_BackcoverF.STL
+│   │   ├── 2020_03_02_BackcoverShell.SLDPRT
+│   │   ├── 203101_Backcover.SLDPRT
+│   │   ├── Front Face Palm Screen Capture.PNG
+│   │   ├── New Palm STL.STL
+│   │   ├── New Palm.SLDPRT
+│   │   ├── R_palm.SLDPRT
+│   │   └── R_palm.stl
+│   ├── Code
+│   │   ├── Blink
+│   │   │   └── Blink.ino
+│   │   ├── helloWorld
+│   │   │   └── helloWorld.ino
+│   │   ├── mainCode
+│   │   │   └── mainCode.ino
+│   │   └── servoTest
+│   │       └── servoTest.ino
+│   └── PCB
+├── v1.2
+│   ├── Notes.txt
+│   ├── PCB
+│   └── mainCode
+│       └── mainCode.ino
+├── v1.3
+│   ├── circuitdraft.b#1
+│   ├── circuitdraft.b#2
+│   ├── circuitdraft.b#3
+│   ├── circuitdraft.b#4
+│   ├── circuitdraft.brd
+│   ├── circuitdraft.s#1
+│   ├── circuitdraft.s#2
+│   └── circuitdraft.sch
+├── v2.0
+│   └── PCB
+│       ├── Hand v2.0 parts.lib
+│       ├── Hand v2.0-cache.lib
+│       ├── Hand v2.0-rescue.dcm
+│       ├── Hand v2.0.kicad_pcb
+│       ├── Hand v2.0.kicad_pcb-bak
+│       ├── Hand v2.0.net
+│       ├── Hand v2.0.pro
+│       ├── Hand v2.0.sch
+│       ├── Hand v2.0.sch-bak
+│       ├── fp-info-cache
+│       ├── hand parts.bck
+│       ├── hand parts.dcm
+│       └── sym-lib-table
+└── v2.1
+    └── PCB
+        ├── 2020-02-01_02-22-13
+        │   ├── 2020-02-01_02-22-13.lib
+        │   ├── footprints.pretty
+        │   │   └── STM32F302_303C2.kicad_mod
+        │   └── readme.txt
+        ├── Hand v2.1 parts.lib
+        ├── Hand v2.1-cache.lib
+        ├── Hand v2.1-rescue.dcm
+        ├── Hand v2.1-rescue.lib
+        ├── Hand v2.1.kicad_pcb
+        ├── Hand v2.1.kicad_pcb-bak
+        ├── Hand v2.1.net
+        ├── Hand v2.1.pro
+        ├── Hand v2.1.sch
+        ├── Hand v2.1.sch-bak
+        ├── fp-info-cache
+        ├── hand parts.bck
+        ├── hand parts.dcm
+        └── sym-lib-table
+
+33 directories, 286 files
+
