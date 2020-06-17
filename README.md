@@ -51,28 +51,10 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │   ├── MCP73831.pdf
 │   └── STM32F303.pdf
 ├── Myosensor
-│   ├── Myosense.v1.b#1
-│   ├── Myosense.v1.b#2
-│   ├── Myosense.v1.b#3
-│   ├── Myosense.v1.b#4
 │   ├── Myosense.v1.brd
-│   ├── Myosense.v1.s#1
-│   ├── Myosense.v1.s#2
-│   ├── Myosense.v1.s#3
-│   ├── Myosense.v1.s#4
-│   ├── Myosense.v1.s#5
 │   └── Myosense.v1.sch
 ├── Old
 │   ├── Eagle Libraries
-│   │   ├── 3DPC.l#1
-│   │   ├── 3DPC.l#2
-│   │   ├── 3DPC.l#3
-│   │   ├── 3DPC.l#4
-│   │   ├── 3DPC.l#5
-│   │   ├── 3DPC.l#6
-│   │   ├── 3DPC.l#7
-│   │   ├── 3DPC.l#8
-│   │   ├── 3DPC.l#9
 │   │   └── 3DPC.lbr
 │   ├── Jig Components
 │   │   ├── Legiment Jig.SLDPRT
@@ -90,112 +72,27 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │   │   ├── myoFlex-Original
 │   │   │   └── myoFlex.ino
 │   │   └── pcb
-│   │       ├── circuitdraft.b#1
-│   │       ├── circuitdraft.b#2
-│   │       ├── circuitdraft.b#3
-│   │       ├── circuitdraft.b#4
-│   │       ├── circuitdraft.b#5
-│   │       ├── circuitdraft.b#6
-│   │       ├── circuitdraft.b#7
-│   │       ├── circuitdraft.b#8
-│   │       ├── circuitdraft.b#9
 │   │       ├── circuitdraft.brd
-│   │       ├── circuitdraft.pro
-│   │       ├── circuitdraft.s#1
-│   │       ├── circuitdraft.s#2
-│   │       ├── circuitdraft.s#3
-│   │       ├── circuitdraft.s#4
-│   │       ├── circuitdraft.s#5
-│   │       ├── circuitdraft.s#6
-│   │       ├── circuitdraft.s#7
-│   │       ├── circuitdraft.s#8
-│   │       ├── circuitdraft.s#9
 │   │       ├── circuitdraft.sch
-│   │       ├── cuircut.b##
-│   │       ├── cuircut.b#1
-│   │       ├── cuircut.b#2
-│   │       ├── cuircut.b#3
-│   │       ├── cuircut.b#4
-│   │       ├── cuircut.s#1
-│   │       ├── cuircut.s#2
-│   │       ├── cuircut.s#3
 │   │       └── eagle.epf
 │   ├── v0.1
 │   │   └── PCB
-│   │       ├── circuitdraft.b#1
-│   │       ├── circuitdraft.b#2
-│   │       ├── circuitdraft.b#3
-│   │       ├── circuitdraft.b#4
-│   │       ├── circuitdraft.b#5
-│   │       ├── circuitdraft.b#6
-│   │       ├── circuitdraft.b#7
-│   │       ├── circuitdraft.b#8
-│   │       ├── circuitdraft.b#9
 │   │       ├── circuitdraft.brd
-│   │       ├── circuitdraft.pro
-│   │       ├── circuitdraft.s#1
-│   │       ├── circuitdraft.s#2
-│   │       ├── circuitdraft.s#3
-│   │       ├── circuitdraft.s#4
-│   │       ├── circuitdraft.s#5
-│   │       ├── circuitdraft.s#6
-│   │       ├── circuitdraft.s#7
-│   │       ├── circuitdraft.s#8
-│   │       ├── circuitdraft.s#9
 │   │       ├── circuitdraft.sch
-│   │       ├── cuircut.b##
-│   │       ├── cuircut.b#1
-│   │       ├── cuircut.b#2
-│   │       ├── cuircut.b#3
-│   │       ├── cuircut.b#4
-│   │       ├── cuircut.s#1
-│   │       ├── cuircut.s#2
-│   │       ├── cuircut.s#3
 │   │       └── eagle.epf
 │   ├── v1.0
 │   │   ├── PCB
-│   │   │   ├── circuitdraft.b#1
-│   │   │   ├── circuitdraft.b#2
-│   │   │   ├── circuitdraft.b#3
-│   │   │   ├── circuitdraft.b#4
-│   │   │   ├── circuitdraft.b#5
-│   │   │   ├── circuitdraft.b#6
-│   │   │   ├── circuitdraft.b#7
-│   │   │   ├── circuitdraft.b#8
-│   │   │   ├── circuitdraft.b#9
 │   │   │   ├── circuitdraft.brd
-│   │   │   ├── circuitdraft.pro
-│   │   │   ├── circuitdraft.s#1
-│   │   │   ├── circuitdraft.s#2
-│   │   │   ├── circuitdraft.s#3
-│   │   │   ├── circuitdraft.s#4
-│   │   │   ├── circuitdraft.s#5
-│   │   │   ├── circuitdraft.s#6
-│   │   │   ├── circuitdraft.s#7
-│   │   │   ├── circuitdraft.s#8
-│   │   │   ├── circuitdraft.s#9
 │   │   │   ├── circuitdraft.sch
-│   │   │   ├── cuircut.b##
-│   │   │   ├── cuircut.b#1
-│   │   │   ├── cuircut.b#2
-│   │   │   ├── cuircut.b#3
-│   │   │   ├── cuircut.b#4
-│   │   │   ├── cuircut.s#1
-│   │   │   ├── cuircut.s#2
-│   │   │   ├── cuircut.s#3
 │   │   │   └── eagle.epf
 │   │   ├── PCB Libraries
-│   │   │   ├── SamacSys_Parts.l#1
 │   │   │   ├── SamacSys_Parts.lbr
 │   │   │   ├── TPS54627DDAR.lbr
 │   │   │   ├── charger.lbr
-│   │   │   ├── ind2.l##
 │   │   │   ├── ind2.lbr
 │   │   │   ├── inductor.lbr
-│   │   │   ├── mega32U4.l#1
 │   │   │   ├── mega32U4.lbr
 │   │   │   ├── microchip-update.lbr
-│   │   │   ├── powerPad.l#1
 │   │   │   └── powerPad.lbr
 │   │   ├── SolidWorks
 │   │   │   ├── 191216_Backcover_JD.SLDPRT
@@ -225,126 +122,21 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │   │   │   └── servoTest
 │   │   │       └── servoTest.ino
 │   │   └── PCB
-│   │       ├── circuitdraft.b#1
-│   │       ├── circuitdraft.b#2
-│   │       ├── circuitdraft.b#3
-│   │       ├── circuitdraft.b#4
-│   │       ├── circuitdraft.b#5
-│   │       ├── circuitdraft.b#6
-│   │       ├── circuitdraft.b#7
-│   │       ├── circuitdraft.b#8
-│   │       ├── circuitdraft.b#9
 │   │       ├── circuitdraft.brd
-│   │       ├── circuitdraft.pro
-│   │       ├── circuitdraft.s#1
-│   │       ├── circuitdraft.s#2
-│   │       ├── circuitdraft.s#3
-│   │       ├── circuitdraft.s#4
-│   │       ├── circuitdraft.s#5
-│   │       ├── circuitdraft.s#6
-│   │       ├── circuitdraft.s#7
-│   │       ├── circuitdraft.s#8
-│   │       ├── circuitdraft.s#9
 │   │       ├── circuitdraft.sch
-│   │       ├── circuitdraft_00.job
-│   │       ├── circuitdraft_01.job
-│   │       ├── circuitdraft_02.job
-│   │       ├── circuitdraft_03.job
-│   │       ├── circuitdraft_04.job
-│   │       ├── circuitdraft_05.job
-│   │       ├── circuitdraft_06.job
-│   │       ├── circuitdraft_07.job
-│   │       ├── circuitdraft_08.job
-│   │       ├── circuitdraft_09.job
-│   │       ├── circuitdraft_10.job
-│   │       ├── circuitdraft_11.job
-│   │       ├── circuitdraft_12.job
-│   │       ├── circuitdraft_13.job
-│   │       ├── circuitdraft_14.job
-│   │       ├── circuitdraft_15.job
-│   │       ├── circuitdraft_16.job
-│   │       ├── circuitdraft_17.job
-│   │       ├── circuitdraft_18.job
-│   │       ├── circuitdraft_19.job
-│   │       ├── circuitdraft_20.job
-│   │       ├── circuitdraft_21.job
-│   │       ├── cuircut.b##
-│   │       ├── cuircut.b#1
-│   │       ├── cuircut.b#2
-│   │       ├── cuircut.b#3
-│   │       ├── cuircut.b#4
-│   │       ├── cuircut.s#1
-│   │       ├── cuircut.s#2
-│   │       ├── cuircut.s#3
 │   │       └── eagle.epf
 │   ├── v1.2
 │   │   ├── Notes.txt
 │   │   ├── PCB
-│   │   │   ├── circuitdraft.b##
-│   │   │   ├── circuitdraft.b#1
-│   │   │   ├── circuitdraft.b#2
-│   │   │   ├── circuitdraft.b#3
-│   │   │   ├── circuitdraft.b#4
-│   │   │   ├── circuitdraft.b#5
-│   │   │   ├── circuitdraft.b#6
-│   │   │   ├── circuitdraft.b#7
-│   │   │   ├── circuitdraft.b#8
-│   │   │   ├── circuitdraft.b#9
 │   │   │   ├── circuitdraft.brd
-│   │   │   ├── circuitdraft.pro
-│   │   │   ├── circuitdraft.s#1
-│   │   │   ├── circuitdraft.s#2
-│   │   │   ├── circuitdraft.s#3
-│   │   │   ├── circuitdraft.s#4
-│   │   │   ├── circuitdraft.s#5
-│   │   │   ├── circuitdraft.s#6
-│   │   │   ├── circuitdraft.s#7
-│   │   │   ├── circuitdraft.s#8
-│   │   │   ├── circuitdraft.s#9
 │   │   │   ├── circuitdraft.sch
-│   │   │   ├── circuitdraft_00.job
-│   │   │   ├── circuitdraft_01.job
-│   │   │   ├── circuitdraft_02.job
-│   │   │   ├── circuitdraft_03.job
-│   │   │   ├── circuitdraft_04.job
-│   │   │   ├── circuitdraft_05.job
-│   │   │   ├── circuitdraft_06.job
-│   │   │   ├── circuitdraft_07.job
-│   │   │   ├── circuitdraft_08.job
-│   │   │   ├── circuitdraft_09.job
-│   │   │   ├── circuitdraft_10.job
-│   │   │   ├── circuitdraft_11.job
-│   │   │   ├── circuitdraft_12.job
-│   │   │   ├── circuitdraft_13.job
-│   │   │   ├── circuitdraft_14.job
-│   │   │   ├── circuitdraft_15.job
-│   │   │   ├── circuitdraft_16.job
-│   │   │   ├── circuitdraft_17.job
-│   │   │   ├── circuitdraft_18.job
-│   │   │   ├── circuitdraft_19.job
-│   │   │   ├── circuitdraft_20.job
-│   │   │   ├── circuitdraft_21.job
-│   │   │   ├── cuircut.b##
-│   │   │   ├── cuircut.b#1
-│   │   │   ├── cuircut.b#2
-│   │   │   ├── cuircut.b#3
-│   │   │   ├── cuircut.b#4
-│   │   │   ├── cuircut.s#1
-│   │   │   ├── cuircut.s#2
-│   │   │   ├── cuircut.s#3
 │   │   │   └── eagle.epf
 │   │   ├── mainCode
 │   │   │   └── mainCode.ino
 │   │   └── testLiPoCharger
 │   │       └── testLiPoCharger.ino
 │   ├── v1.3
-│   │   ├── circuitdraft.b#1
-│   │   ├── circuitdraft.b#2
-│   │   ├── circuitdraft.b#3
-│   │   ├── circuitdraft.b#4
 │   │   ├── circuitdraft.brd
-│   │   ├── circuitdraft.s#1
-│   │   ├── circuitdraft.s#2
 │   │   └── circuitdraft.sch
 │   ├── v2.0
 │   │   └── PCB
@@ -354,7 +146,6 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │   │       ├── Hand v2.0.kicad_pcb
 │   │       ├── Hand v2.0.kicad_pcb-bak
 │   │       ├── Hand v2.0.net
-│   │       ├── Hand v2.0.pro
 │   │       ├── Hand v2.0.sch
 │   │       ├── Hand v2.0.sch-bak
 │   │       ├── fp-info-cache
@@ -375,7 +166,6 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │           ├── Hand v2.1.kicad_pcb
 │           ├── Hand v2.1.kicad_pcb-bak
 │           ├── Hand v2.1.net
-│           ├── Hand v2.1.pro
 │           ├── Hand v2.1.sch
 │           ├── Hand v2.1.sch-bak
 │           ├── fp-info-cache
@@ -384,6 +174,7 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
 │           └── sym-lib-table
 ├── README.md
 ├── tree.txt
+├── treeCMD.txt
 └── v3.0
     └── hand v3.0
         ├── Hand Parts.bck
@@ -392,12 +183,13 @@ Bare bones code and prototype back cover. Cannot find Eagle file. Only legend sp
         ├── fp-info-cache
         ├── hand v3.0-cache.lib
         ├── hand v3.0.kicad_pcb
-        ├── hand v3.0.pro
         ├── hand v3.0.sch
         ├── hand v3.0.sch-bak
         ├── hand v3.xml
         └── sym-lib-table
 
-38 directories, 313 files
+38 directories, 103 files
+
 
 </pre>
+tree -I "*.pro|*.b#?|*.s#?|*.l?|*.job" -o tree.txt
